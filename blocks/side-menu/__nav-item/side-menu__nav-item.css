@@ -1,0 +1,20 @@
+.side-menu__nav-item {
+  border: none;
+  background: none;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+  color: #1b1c21;
+  transition: 0.2s;
+  cursor: pointer;
+  width: fit-content;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.side-menu__nav-item:hover {
+  opacity: 0.8;
+}

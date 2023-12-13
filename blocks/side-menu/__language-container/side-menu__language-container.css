@@ -1,0 +1,6 @@
+.side-menu__language-container {
+  margin: 0;
+  padding: 0 0 32px;
+  display: flex;
+  gap: 7px;
+}

@@ -1,145 +1,18 @@
 @import url(./normalize.css);
-.body {
-  background-color: #f0f0f0;
-  font-family: "TT Lakes";
-  padding: 0;
-  margin: 0;
-}
-.side-menu {
-  margin: 0;
-  padding: 18.73px 24px 0;
-  width: 272px;
-  background-color: #ffffff;
-}
-.side-menu__header-icon {
-  width: 40px;
-  height: 40px;
-  margin: 0;
-  padding: 0;
-}
-.side-menu__logo {
-  transition: 0.2s;
-  margin-top: 0;
-  margin: 0 auto 0 16.73px;
-}
-.side-menu__logo:hover {
-  opacity: 0.8;
-}
-.side-menu__logo-image {
-  width: 97px;
-  height: 51px;
-  margin: 0;
-  padding: 0;
-}
-.side-menu__header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 0 46.27px;
-  margin: 0;
-}
-.side-menu__nav {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-  margin: 0 0 268px;
-  padding: 0;
-}
-.side-menu__nav-item {
-  border: none;
-  background: none;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.20000000298023224px;
-  text-align: left;
-  color: #1b1c21;
-  transition: 0.2s;
-  cursor: pointer;
-  width: fit-content;
-  position: relative;
-  display: flex;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-}
-.side-menu__nav-item:hover {
-  opacity: 0.8;
-}
-.side-menu__nav-item_active {
-  color: #7e7e82;
-}
-.side-menu__nav-item_active::before {
-  content: "";
-  height: 32px;
-  border-right: 6px solid #41f6d7;
-  border-radius: 100px;
-  position: absolute;
-  left: -27px;
-}
-.side-menu__icon-container {
-  display: flex;
-  flex-direction: row;
-  gap: 16px;
-  padding: 0;
-  margin: 0;
-}
-.side-menu__icon {
-  width: 40px;
-  height: 40px;
-  transition: 0.2s;
-  margin: 0;
-  padding: 0;
-}
-.side-menu__icon-button {
-  border: none;
-  margin: 0;
-  padding: 0;
-  background: none;
-  cursor: pointer;
-  transition: 0.2s;
-}
-.side-menu__icon-button:hover {
-  opacity: 0.8;
-}
-.side-menu__email {
-  color: #1b1c21;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.20000000298023224px;
-  text-align: left;
-  margin: 12px 0 12px;
-  padding: 0;
-}
-.side-menu__number {
-  color: #1b1c21;
-  font-size: 24px;
-  line-height: 32px;
-  letter-spacing: -0.6000000238418579px;
-  text-align: left;
-  margin: 0 0 40px;
-  padding: 0;
-}
-.side-menu__language-container {
-  margin: 0;
-  padding: 0 0 32px;
-  display: flex;
-  gap: 7px;
-}
-.side-menu__language {
-  margin: 0;
-  padding: 0;
-  border: none;
-  background: none;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: -0.20000000298023224px;
-  text-align: left;
-  cursor: pointer;
-  transition: 0.2s;
-}
-.side-menu__language:hover {
-  opacity: 0.8;
-}
-.side-menu__language_active {
-  color: #7e7e82;
-}
+@import url(./blocks/body/body.css);
+@import url(./blocks/side-menu/side-menu.css);
+@import url(./blocks/side-menu/__header-icon/side-menu__header-icon.css);
+@import url(./blocks/side-menu/__logo/side-menu__logo.css);
+@import url(./blocks/side-menu/__logo-image/side-menu__logo-image.css);
+@import url(./blocks/side-menu/__header/side-menu__header.css);
+@import url(./blocks/side-menu/__nav/side-menu__nav.css);
+@import url(./blocks/side-menu/__nav-item/side-menu__nav-item.css);
+@import url(./blocks/side-menu/__nav-item/__active/side-menu__nav-item_active.css);
+@import url(./blocks/side-menu/__icon-container/side-menu__icon-container.css);
+@import url(./blocks/side-menu/__icon/side-menu__icon.css);
+@import url(./blocks/side-menu/__icon-button/side-menu__icon-button.css);
+@import url(./blocks/side-menu/__email/side-menu__email.css);
+@import url(./blocks/side-menu/__number/side-menu__number.css);
+@import url(./blocks/side-menu/__language-container/side-menu__language-container.css);
+@import url(./blocks/side-menu/__language/side-menu__language.css);
+@import url(./blocks/side-menu/__language/_active/side-menu__language_active.css);

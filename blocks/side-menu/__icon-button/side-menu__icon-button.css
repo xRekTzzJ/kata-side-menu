@@ -1,0 +1,11 @@
+.side-menu__icon-button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.side-menu__icon-button:hover {
+  opacity: 0.8;
+}
